@@ -1,10 +1,10 @@
 import "./App.css";
+import Weather from "./Weather.js";
 
 function App() {
   return (
     <div className="App">
-      <h1>Weather App</h1>
-
+      <Weather />
       <footer>
         This app was coded by{" "}
         <a href="https://sad-bardeen-5faffc.netlify.app/">Ellie Kubo </a>
