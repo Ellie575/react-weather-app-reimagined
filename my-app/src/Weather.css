@@ -1,3 +1,35 @@
 .Weather {
-  border: 1px solid blueviolet;
+  background: #fff2f2;
+  border: 1px solid #fbd6d2;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.Weather form {
+  margin-bottom: 15px;
+}
+
+.Weather img {
+  vertical-align: top;
+  margin-top: 20px;
+}
+
+.Weather h3 {
+  margin: 0 auto;
+}
+
+.Weather li {
+  font-size: 16px;
+  line-height: 19px;
+  list-style: none;
+}
+
+.Weather .temperature {
+  font-size: 60px;
+}
+
+.Weather .unit {
+  position: relative;
+  top: -32px;
 }
